@@ -56,4 +56,12 @@
         android:backgroundTint="@color/cardview_dark_background"
         />
 
+    <Button
+        android:id="@+id/customNextBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next page"
+        android:backgroundTint="@color/cardview_dark_background"
+        />
+
 </LinearLayout>
