@@ -5,17 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
 
 
     <TextView
+        android:id="@+id/secondScreen"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:backgroundTint="@color/black"
+        android:layout_marginBottom="16dp"
         android:text="second view"
         android:textSize="30sp"
         tools:ignore="MissingConstraints">
     </TextView>
 
+    <TextView
+        android:id="@+id/userOption1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="option1"
+        android:textSize="14sp">
+    </TextView>
+    <TextView
+        android:id="@+id/userOption2"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="option2"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints">
+    </TextView>
+    <TextView
+        android:id="@+id/userOption3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="option3"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints">
+    </TextView>
+    <TextView
+        android:id="@+id/userOption4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="option4"
+        android:textSize="14sp"
+        tools:ignore="MissingConstraints">
+    </TextView>
+
+    <Button
+        android:id="@+id/nextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="next"
+        >
+    </Button>
 </LinearLayout>
