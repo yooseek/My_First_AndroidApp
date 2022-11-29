@@ -1,26 +1,22 @@
 package io.kseek.myandroidapp
 
-import android.app.DatePickerDialog
-import android.icu.text.SimpleDateFormat
-import android.os.Build
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import android.widget.Toast
-import androidx.annotation.RequiresApi
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
-    @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val btnDatePicker: Button = findViewById(R.id.button)
-
-        btnDatePicker.setOnClickListener {
-            clickDatePicker()
+        val btnNextPage = findViewById<Button>(R.id.customNextBtn)
+        btnNextPage.setOnClickListener {
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+            finish()
         }
+
     }
 
     @RequiresApi(Build.VERSION_CODES.N)

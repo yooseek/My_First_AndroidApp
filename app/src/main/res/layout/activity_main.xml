@@ -43,7 +43,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
-        android:layout_marginBottom="16sp"
         android:text="IN MINUTES"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
@@ -53,8 +52,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Select Date"
-        android:background="@color/btBgColor"
+        android:text="Button"
         android:backgroundTint="@color/cardview_dark_background"
         />
 
