@@ -43,6 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
         android:text="IN MINUTES"
         android:textColor="@color/textBlue"
         android:textSize="25sp"
@@ -52,8 +53,30 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="Select Date"
+        android:background="@color/btBgColor"
         android:backgroundTint="@color/cardview_dark_background"
         />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
+        android:text="31.05.1983"
+        android:textColor="@color/textBlue"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16sp"
+        android:layout_marginBottom="16sp"
+        android:text="SELECT DATE"
+        android:textColor="@color/lightGray"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 </LinearLayout>

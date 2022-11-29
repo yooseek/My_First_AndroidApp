@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="bgColor">#E9C46A</color>
     <color name="textBlue">#264653</color>
+    <color name="btBgColor">#2A9D8F</color>
+    <color name="lightGray">#b7b7a4</color>
 </resources>
